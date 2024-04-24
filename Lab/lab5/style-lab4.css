@@ -1,0 +1,33 @@
+body{
+    background-color: #d7ffc7;
+}
+.header{
+    text-align: center;
+    font-size: 2vmax;
+    color: #1a84ca;
+}
+div.gallery{
+    width: 100%;
+    border: 1px solid #000000;
+}
+div.gallery div.el{
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #ffffff;
+    width: 30%;
+    float: left;
+    background-color: #921717;
+    box-shadow: 5px 5px 5px #eb9696;
+}
+div.gallery div.el img{
+    width: 100%;
+}
+.btn-go-back{
+    clear: both;
+    text-align: center;
+    font-size: 1.5vmax;
+}
+.btn-go-back a{
+    text-decoration: none;
+    color: #200411;
+}
